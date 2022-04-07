@@ -1,0 +1,75 @@
+h1 {
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    color: yellowgreen;
+    font-size: 80px;
+    align-content: center;
+    text-align: center;
+    text-transform: capitalize;
+    background-image: url(IMG/canabis1.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    font-family: 'Rubik Moonrocks', cursive;
+    }
+body{
+    background-color: black;
+    color: white;
+    }
+h2{
+    font-family: 'Grape Nuts', cursive;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-size: 40px;
+        }
+.textoDescriptivo{
+    font-family: 'Grape Nuts', cursive;
+   
+    }
+    .contenedores{
+        font-family: 'Grape Nuts', cursive;
+        color: black;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+        border: solid;
+        border-color: greenyellow;
+        padding: 5%;
+        justify-content: space-around;
+        background-image: url(IMG/fondo1.jpg);
+    
+        }
+        button{
+            color: aqua;
+            background-color: black;
+        }
+        .aceite1{
+            padding: 5%;
+            height: 90%;
+            width: 30%;
+            border: solid;
+            border-radius: 5px;
+            border-color: rgb(168, 255, 55);
+            background-image: url(IMG/aceite3.jpg);
+            }
+        .aceite2{
+            padding: 5%;
+            height: 90%;
+            width: 30%;
+            border: solid;
+            border-radius: 5px;
+            border-color: rgb(168, 255, 55);
+            background-image: url(IMG/aceite2.jpg);
+            }
+        .aceite3{
+            margin: 3%;
+            padding: 5%;
+            height: 90%;
+            width: 30%;
+            border: solid;
+            border-radius: 5px;
+            border-color: rgb(168, 255, 55);
+            background-image: url(IMG/aceite1.jpg);
+            }
