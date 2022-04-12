@@ -5,3 +5,4 @@ if(edad < 18) {
 } else {
     alert ("puede ingresar  🚬 ")
 }
+$(" ")

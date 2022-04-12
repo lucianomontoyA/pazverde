@@ -1,6 +1,30 @@
-h1 {
-    height: 300px;
+*{
+    margin: 0;
+    padding: 0;
+}
+.todos{
+    display:flex;
+    height: 100%;
     width: 100%;
+    padding: 1px;
+}
+
+@media (max-width: 500px){
+    .contenedores{
+        flex-direction: column;
+        align-content: center;
+        flex-basis: 80% ;
+         }
+        .aceite1 .aceite2 .aceite3 {
+            flex-basis: 80%;
+
+        }
+        }
+
+h1 {
+    display: flex;
+    height: 100%;
+    width: 110%;
     background-color: black;
     color: yellowgreen;
     font-size: 80px;
@@ -12,21 +36,30 @@ h1 {
     background-position: fixed;
     background-size: cover;
     font-family: 'Rubik Moonrocks', cursive;
+    
     }
 body{
     background-color: black;
     color: white;
+    text-align: center;
+    align-content: center;
     }
 h2{
     font-family: 'Grape Nuts', cursive;
     text-transform: capitalize;
     text-decoration: underline;
     font-size: 40px;
+    color: greenyellow;
         }
 .textoDescriptivo{
     font-family: 'Grape Nuts', cursive;
-   
-    }
+    color: orange;
+   font-size: 20px;
+    text-align: center;
+    align-content: center;
+    padding: 5px;  
+    margin: 3%;  
+}
     .contenedores{
         font-family: 'Grape Nuts', cursive;
         color: black;
@@ -45,15 +78,29 @@ h2{
             color: aqua;
             background-color: black;
         }
-        .aceite1{
+        .crema1{
             padding: 5%;
             height: 90%;
             width: 30%;
             border: solid;
             border-radius: 5px;
             border-color: rgb(168, 255, 55);
-            background-image: url(IMG/aceite3.jpg);
-            }
+            background-image: url(IMG/crema2.jpg);
+           background-position: center;
+           margin: 3%;
+             }
+        .crema2{
+            padding: 5%;
+            height: 90%;
+            width: 30%;
+            border: solid;
+            border-radius: 5px;
+            border-color: rgb(168, 255, 55);
+            background-image: url(IMG/crema\ canabis.jpg);
+           background-position: center;
+           margin: 3%;
+
+        }
         .aceite2{
             padding: 5%;
             height: 90%;
@@ -62,14 +109,21 @@ h2{
             border-radius: 5px;
             border-color: rgb(168, 255, 55);
             background-image: url(IMG/aceite2.jpg);
-            }
+            background-position: center;
+            margin: 3%;    
+            text-shadow: 1px 1px 1px white;
+        }
         .aceite3{
-            margin: 3%;
+           
             padding: 5%;
             height: 90%;
             width: 30%;
             border: solid;
             border-radius: 5px;
             border-color: rgb(168, 255, 55);
-            background-image: url(IMG/aceite1.jpg);
-            }
+            background-image: url(IMG/aceite4.jpg);
+            background-position: center;
+            margin: 3%;
+            text-shadow: 1px 1px 1px white;
+           
+        }
