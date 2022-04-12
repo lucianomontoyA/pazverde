@@ -13,11 +13,14 @@
     .contenedores{
         flex-direction: column;
         align-content: center;
-        flex-basis: 80% ;
+       
          }
         .aceite1 .aceite2 .aceite3 {
-            flex-basis: 80%;
-
+            display:flex;
+            }
+       button a .contatar{
+            width: 20px;
+            height: 20px;
         }
         }
 
@@ -50,6 +53,11 @@ h2{
     text-decoration: underline;
     font-size: 40px;
     color: greenyellow;
+        }
+h3{
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px yellowgreen;
+
         }
 .textoDescriptivo{
     font-family: 'Grape Nuts', cursive;
@@ -128,7 +136,7 @@ h2{
            
         }
 .contatar{
-    width: 200px;
+    width: 30%;
     height: 50px;
     border-radius: 25%;
     background-color:yellowgreen;
@@ -137,6 +145,14 @@ h2{
     color: green;
     margin: 2%;
     text-decoration: none;
+}
+.contactar{
+    width: 80%;
+    height: 50px;
+    border-radius: 100px;
+    border-color: pink;
+    border-bottom: solid;
+    background-color: yellowgreen;
 }
 a{
     color: yellow;
